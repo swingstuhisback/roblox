@@ -1,4 +1,4 @@
-getgenv().servicesTest = true -- Runs a fast test to see if all services work.
+getgenv().servicesTest = false -- Runs a fast test to see if all services work.
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
