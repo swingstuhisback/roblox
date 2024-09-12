@@ -133,4 +133,4 @@ Utils.lineBreak = function(amt) amt = amt or 1 for i = 1, amt do print("\n") end
 
 if servicesTest == true then print "running services test" Utils.lineBreak() for i, v in pairs(Services) do print(i .. " = " .. tostring(v)) end Utils.lineBreak() end
 
-return { Services, Utils }
+return { Services = Services, Utils = Utils }
