@@ -79,6 +79,7 @@ local Services = {
         PlayerEmulatorService = game:GetService("PlayerEmulatorService"),
         PlayerViewService = game:GetService("PlayerViewService"),
         Players = game:GetService("Players"),
+        LocalPlayer = game:GetService("Players").LocalPlayer,
         PointsService = game:GetService("PointsService"),
         PolicyService = game:GetService("PolicyService"),
         ProximityPromptService = game:GetService("ProximityPromptService"),
